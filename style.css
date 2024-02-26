@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+body {
+    padding: 20px;
+    font-family: sans-serif;
+    background:antiquewhite;
+}
+img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+    border-radius: 5%;
+}
+h1 {
+    color: #661c83;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+h2{
+    color: #661c83; 
+    font-size:larger;
+    margin-top: 3%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
